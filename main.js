@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded', function(){
     xmlhttp.send();
 
     xmlhttp.onreadystatechange = () => {
-      showDataContainer.innerHTML = xmlhttp.responseText;
+      if (xmlhttp.status == 200 && xmlhttp.readyState == 4) {
+        showDataContainer.innerHTML = xmlhttp.responseText;
+      }
     }  
     return false;
   }
