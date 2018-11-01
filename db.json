@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "sraka1",
+      "author": "gowno1",
+      "id": 1
+    },
+    {
+      "title": "sraka2",
+      "author": "gowno2",
+      "id": 2
+    },
+    {
+      "title": "sraka3",
+      "author": "gowno3",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
